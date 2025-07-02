@@ -6,7 +6,7 @@ fun main() {
         if (nulFinder != 0)
             input[i] = nulFinder
     }
-    val prot: String?
+    lateinit var prot:String
     print("Enter The Protocol : ")
     prot = readln()
     calculate(input, prot)
