@@ -1,5 +1,5 @@
 val calculate = { t: List<Int>, x: String ->
-    var result = 0
+    val result:Int?
     for (i in 1..30)
         print("-")
     if(x.isNotEmpty())
